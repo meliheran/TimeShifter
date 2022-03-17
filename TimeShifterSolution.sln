@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{51567727-5B07-43A6-ADF7-C6F669307DBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{DECCE0DB-E21F-4F4F-8458-992F981DF46E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeShifter", "TimeShifter\TimeShifter.csproj", "{39195673-2990-40F6-AB35-6D757D31E0D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeShifterDesktopSample", "Samples\TimeShifterDesktopSample\TimeShifterDesktopSample.csproj", "{239C7C80-42BC-43C9-A59F-31C42BC86172}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeShifterUnitTest", "Test\TimeShifterUnitTest\TimeShifterUnitTest.csproj", "{6044156B-1BF8-4F13-80C4-8BD2D177FDA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeShifterConsoleSample", "Samples\TimeShifterConsoleSample\TimeShifterConsoleSample.csproj", "{2088C6A9-C4E8-4FB1-AA0E-4FCF9B400847}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39195673-2990-40F6-AB35-6D757D31E0D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39195673-2990-40F6-AB35-6D757D31E0D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39195673-2990-40F6-AB35-6D757D31E0D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39195673-2990-40F6-AB35-6D757D31E0D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{239C7C80-42BC-43C9-A59F-31C42BC86172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239C7C80-42BC-43C9-A59F-31C42BC86172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239C7C80-42BC-43C9-A59F-31C42BC86172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239C7C80-42BC-43C9-A59F-31C42BC86172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6044156B-1BF8-4F13-80C4-8BD2D177FDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6044156B-1BF8-4F13-80C4-8BD2D177FDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6044156B-1BF8-4F13-80C4-8BD2D177FDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6044156B-1BF8-4F13-80C4-8BD2D177FDA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2088C6A9-C4E8-4FB1-AA0E-4FCF9B400847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2088C6A9-C4E8-4FB1-AA0E-4FCF9B400847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2088C6A9-C4E8-4FB1-AA0E-4FCF9B400847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2088C6A9-C4E8-4FB1-AA0E-4FCF9B400847}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{239C7C80-42BC-43C9-A59F-31C42BC86172} = {DECCE0DB-E21F-4F4F-8458-992F981DF46E}
+		{6044156B-1BF8-4F13-80C4-8BD2D177FDA4} = {51567727-5B07-43A6-ADF7-C6F669307DBB}
+		{2088C6A9-C4E8-4FB1-AA0E-4FCF9B400847} = {DECCE0DB-E21F-4F4F-8458-992F981DF46E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {709F1FF6-D13E-4BE3-8406-CDFDB828EFCE}
+	EndGlobalSection
+EndGlobal
