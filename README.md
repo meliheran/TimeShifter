@@ -1,6 +1,6 @@
 # TimeShifter.cs
 
-![timeshifter](https://user-images.githubusercontent.com/11661323/158789437-987e93c7-d343-4c33-8c75-6f27f9029422.gif)
+![ezgif-5-d0151f6d12](https://user-images.githubusercontent.com/11661323/158804518-39a2ebb9-caf3-4ee4-88d2-a2dd07697758.gif)
 
 ## What is Time Shifter ?
 
